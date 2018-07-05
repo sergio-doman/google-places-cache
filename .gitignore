@@ -1,0 +1,6 @@
+node_modules
+dump.rdb
+.npm
+.DS_Store
+package-lock.json
+

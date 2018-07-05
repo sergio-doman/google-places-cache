@@ -1,0 +1,31 @@
+{
+  "name": "google-places-cache",
+  "version": "1.0.0",
+  "description": "Simple http google places caching microservice",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sergio-doman/google-places-cache.git"
+  },
+  "keywords": [
+    "google",
+    "maps",
+    "places",
+    "cache",
+    "http",
+    "microservice"
+  ],
+  "author": "Sergiy Domanitskiy",
+  "license": "MIT",
+  "dependencies": {
+    "async": "^2.6.0",
+    "joi": "^13.2.0",
+    "lodash": "^4.17.5",
+    "redis": "^2.8.0",
+    "request": "^2.85.0",
+    "restify": "^7.1.1"
+  }
+}
