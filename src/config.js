@@ -1,6 +1,6 @@
 "use strict";
 
-const pack = require('./package.json');
+const pack = require('../package.json');
 
 module.exports = {
   port: 'PORT' in process.env ? (Number(process.env.PORT) + ('NODE_APP_INSTANCE' in process.env ? Number(process.env.NODE_APP_INSTANCE) : 0)) : 8080,
